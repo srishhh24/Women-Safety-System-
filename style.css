@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.sos-btn {
+    background: red;
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+}
+
+.sos-btn:hover {
+    background: darkred;
+}
+
+.actions button {
+    margin: 15px;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+.actions button:hover {
+    background: #ddd;
+}
