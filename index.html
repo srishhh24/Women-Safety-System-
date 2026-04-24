@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women Safety System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚨 Women Safety System</h1>
+
+        <button class="sos-btn" onclick="triggerSOS()">SOS</button>
+
+        <div class="actions">
+            <button onclick="getLocation()">📍 Share Location</button>
+            <button onclick="callHelp()">📞 Call Help</button>
+        </div>
+
+        <p id="location"></p>
+    </div>
+
+    <audio id="alarm">
+        <source src="alarm.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
